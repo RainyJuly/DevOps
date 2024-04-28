@@ -19,7 +19,7 @@ services:
       - /var/lib/postgresql/data
     container_name: db
   app:
-    image: danlla/test
+    image: rainyjuly/devops
     depends_on:
       db:
         condition: service_healthy
